@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <title>BookShelter</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="header">
+            <div class="header-section d-flex justify-content-between">
+                <a href="#!" class="header-logo">
+                    <img src="./img/logo.png" alt="Site Logo" class="header-logo__img">
+                </a>
+                <div class="header-search d-flex">
+                    <img src="./img/Search.svg" alt="" class="search-icon">
+                    <input type="search" placeholder="Search Books" class="search">
+                </div>
+                <div class="header-weather-and-login d-flex pe-3">
+                    <img src="./img/Group 182.svg" alt="" class="header-wether__icon">
+                    <a href="#!" class="btn btn-primary ps-3 pe-3 header-login__btn">LogOut</a>
+                </div>
+            </div>
+            <div class="hero-section justify-content-between pe-5">
+                <h3 class="hero-section__title">Showing 18 Result(s)</h3>
+                <a href="#!" class="btn btn-secondary">
+                    <img src="./img/calendar 1.svg" alt="Calendar" class=" hero-section__logo">
+                    Order by newest
+                </a>
+            </div>
+        </header>
+        <main class="main d-flex gap-5">
+            <div class="left-side">
+                <h2 class="left-side__title">
+                    Bookmarks
+                </h2>
+                <p class="left-side__text">If you don’t like to read, you haven’t found the right book</p>
+                <div class="left-side__cards">
+                    <a href="#!" class="left-side__card">
+                        <div class="card-texts">
+                            <h4 class="card-title">Python</h4>
+                            <p class="card-authors">David M. Beazley</p>
+                        </div>
+                        <img src="./img/book-open 1.svg" alt="" class="left-side__i">
+                        <img src="./img/delete 1.svg" alt="" class="left-side__i">
+                    </a>
+
+                    <a href="#!" class="left-side__card">
+                        <div class="card-texts">
+                            <h4 class="card-title">Java</h4>
+                            <p class="card-authors">David M. Beazley</p>
+                        </div>
+                        <img src="./img/book-open 1.svg" alt="" class="left-side__i">
+                        <img src="./img/delete 1.svg" alt="" class="left-side__i">
+                    </a>
+
+                    <a href="#!" class="left-side__card">
+                        <div class="card-texts">
+                            <h4 class="card-title">C++</h4>
+                            <p class="card-authors">David M. Beazley</p>
+                        </div>
+                        <img src="./img/book-open 1.svg" alt="" class="left-side__i">
+                        <img src="./img/delete 1.svg" alt="" class="left-side__i">
+                    </a>
+                </div>
+            </div>
+
+            <div class="right-side justify-content-between">
+                <div class="row d-flex">
+                    <div class="col-4 my-5">
+                        <div class="card-image d-flex justify-content-center ">
+                            <img src="./img/Rectangle 356.png" alt="" class="card-image__img">
+                        </div>
+                        <h4 class="card-title">Python</h4>
+                        <p class="authors">David M. Beazley</p>
+                        <p class="authors">2009</p>
+
+                        <div class="buttons">
+                            <a href="#!" class="bookmark">Bookmark</a>
+                            <a href="#!" class="info">More info</a>
+                        </div>
+                        <button class="read-btn btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Read</button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          <div class="offcanvas-header justify-content-center flex-md-column">
+                            <img src="./img/Rectangle 356.png" alt="" class="card-image__img">
+                            <p class="offcanvas-title" id="offcanvasRightLabel">Culpa nulla pariatur cupidatat nisi incididunt ea do ipsum. Incididunt quis mollit elit commodo cillum eiusmod reprehenderit labore irure. Cillum et incididunt et nostrud exercitation quis aute laboris non ut adipisicing. Laboris ad minim aute nulla proident deserunt velit anim sunt aliquip ut sit. Exercitation aliquip ullamco officia non aliqua. Sint deserunt aliquip veniam id eiusmod sit consectetur mollit ea aliqua officia consequat. Magna non mollit nisi est commodo voluptate aute id. Deserunt nostrud id do in nisi mollit deserunt non. Pariatur fugiat cillum irure elit sint nisi ad ipsum culpa deserunt cupidatat esse consequat laboris. Id aliquip non consectetur esse proident duis Lorem.</p>
+                            <div class="card-texts text-md-start">
+                            <p class="card-text">Author: <span class="card-text__span">Jamal Kasper</span><span class="card-text__span">Author 2</span></p>
+                            <p class="card-text">Published: <span class="card-text__span">2019</span></p>
+                            <p class="card-text">Publishers: <span class="card-text__span">Hollman</span></p>
+                            <p class="card-text">Categories: <span class="card-text__span">Computers</span></p>
+                            <p class="card-text">Pages Count: <span class="card-text__span">346</span></p>
+                        </div>
+                          </div>
+                          <div class="offcanvas-body">
+                            ...
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-5">
+                        <div class="card-image">
+                            <img src="./img/Rectangle 356 (1).png" alt="" class="card-image__img">
+                        </div>
+                        <h4 class="card-title">Python</h4>
+                        <p class="authors">David M. Beazley</p>
+                        <p class="authors">2009</p>
+
+                        <div class="buttons">
+                            <a href="#!" class="bookmark">Bookmark</a>
+                            <a href="#!" class="info">More info</a>
+                        </div>
+                        <button class="read-btn btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Read</button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          <div class="offcanvas-header justify-content-center flex-md-column">
+                            <img src="./img/Rectangle 356.png" alt="" class="card-image__img">
+                            <p class="offcanvas-title" id="offcanvasRightLabel">Culpa nulla pariatur cupidatat nisi incididunt ea do ipsum. Incididunt quis mollit elit commodo cillum eiusmod reprehenderit labore irure. Cillum et incididunt et nostrud exercitation quis aute laboris non ut adipisicing. Laboris ad minim aute nulla proident deserunt velit anim sunt aliquip ut sit. Exercitation aliquip ullamco officia non aliqua. Sint deserunt aliquip veniam id eiusmod sit consectetur mollit ea aliqua officia consequat. Magna non mollit nisi est commodo voluptate aute id. Deserunt nostrud id do in nisi mollit deserunt non. Pariatur fugiat cillum irure elit sint nisi ad ipsum culpa deserunt cupidatat esse consequat laboris. Id aliquip non consectetur esse proident duis Lorem.</p>
+                            <div class="card-texts text-md-start">
+                            <p class="card-text">Author: <span class="card-text__span">Jamal Kasper</span><span class="card-text__span">Author 2</span></p>
+                            <p class="card-text">Published: <span class="card-text__span">2019</span></p>
+                            <p class="card-text">Publishers: <span class="card-text__span">Hollman</span></p>
+                            <p class="card-text">Categories: <span class="card-text__span">Computers</span></p>
+                            <p class="card-text">Pages Count: <span class="card-text__span">346</span></p>
+                        </div>
+                          </div>
+                          <div class="offcanvas-body">
+                            ...
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-5">
+                        <div class="card-image">
+                            <img src="./img/Rectangle 356 (2).png" alt="" class="card-image__img">
+                        </div>
+                        <h4 class="card-title">Python</h4>
+                        <p class="authors">David M. Beazley</p>
+                        <p class="authors">2009</p>
+
+                        <div class="buttons">
+                            <a href="#!" class="bookmark">Bookmark</a>
+                            <a href="#!" class="info">More info</a>
+                        </div>
+                        <button class="read-btn btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Read</button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          <div class="offcanvas-header justify-content-center flex-md-column">
+                            <img src="./img/Rectangle 356.png" alt="" class="card-image__img">
+                            <p class="offcanvas-title" id="offcanvasRightLabel">Culpa nulla pariatur cupidatat nisi incididunt ea do ipsum. Incididunt quis mollit elit commodo cillum eiusmod reprehenderit labore irure. Cillum et incididunt et nostrud exercitation quis aute laboris non ut adipisicing. Laboris ad minim aute nulla proident deserunt velit anim sunt aliquip ut sit. Exercitation aliquip ullamco officia non aliqua. Sint deserunt aliquip veniam id eiusmod sit consectetur mollit ea aliqua officia consequat. Magna non mollit nisi est commodo voluptate aute id. Deserunt nostrud id do in nisi mollit deserunt non. Pariatur fugiat cillum irure elit sint nisi ad ipsum culpa deserunt cupidatat esse consequat laboris. Id aliquip non consectetur esse proident duis Lorem.</p>
+                            <div class="card-texts text-md-start">
+                            <p class="card-text">Author: <span class="card-text__span">Jamal Kasper</span><span class="card-text__span">Author 2</span></p>
+                            <p class="card-text">Published: <span class="card-text__span">2019</span></p>
+                            <p class="card-text">Publishers: <span class="card-text__span">Hollman</span></p>
+                            <p class="card-text">Categories: <span class="card-text__span">Computers</span></p>
+                            <p class="card-text">Pages Count: <span class="card-text__span">346</span></p>
+                        </div>
+                          </div>
+                          <div class="offcanvas-body">
+                            ...
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-5">
+                        <div class="card-image">
+                            <img src="./img/Rectangle 356 (3).png" alt="" class="card-image__img">
+                        </div>
+                        <h4 class="card-title">Python</h4>
+                        <p class="authors">David M. Beazley</p>
+                        <p class="authors">2009</p>
+
+                        <div class="buttons">
+                            <a href="#!" class="bookmark">Bookmark</a>
+                            <a href="#!" class="info">More info</a>
+                        </div>
+                        <button class="read-btn btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Read</button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          <div class="offcanvas-header justify-content-center flex-md-column">
+                            <img src="./img/Rectangle 356.png" alt="" class="card-image__img">
+                            <p class="offcanvas-title" id="offcanvasRightLabel">Culpa nulla pariatur cupidatat nisi incididunt ea do ipsum. Incididunt quis mollit elit commodo cillum eiusmod reprehenderit labore irure. Cillum et incididunt et nostrud exercitation quis aute laboris non ut adipisicing. Laboris ad minim aute nulla proident deserunt velit anim sunt aliquip ut sit. Exercitation aliquip ullamco officia non aliqua. Sint deserunt aliquip veniam id eiusmod sit consectetur mollit ea aliqua officia consequat. Magna non mollit nisi est commodo voluptate aute id. Deserunt nostrud id do in nisi mollit deserunt non. Pariatur fugiat cillum irure elit sint nisi ad ipsum culpa deserunt cupidatat esse consequat laboris. Id aliquip non consectetur esse proident duis Lorem.</p>
+                            <div class="card-texts text-md-start">
+                            <p class="card-text">Author: <span class="card-text__span">Jamal Kasper</span><span class="card-text__span">Author 2</span></p>
+                            <p class="card-text">Published: <span class="card-text__span">2019</span></p>
+                            <p class="card-text">Publishers: <span class="card-text__span">Hollman</span></p>
+                            <p class="card-text">Categories: <span class="card-text__span">Computers</span></p>
+                            <p class="card-text">Pages Count: <span class="card-text__span">346</span></p>
+                        </div>
+                          </div>
+                          <div class="offcanvas-body">
+                            ...
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-5">
+                        <div class="card-image">
+                            <img src="./img/Rectangle 356 (4).png" alt="" class="card-image__img">
+                        </div>
+                        <h4 class="card-title">Python</h4>
+                        <p class="authors">David M. Beazley</p>
+                        <p class="authors">2009</p>
+
+                        <div class="buttons">
+                            <a href="#!" class="bookmark">Bookmark</a>
+                            <a href="#!" class="info">More info</a>
+                        </div>
+                        <button class="read-btn btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Read</button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          <div class="offcanvas-header justify-content-center flex-md-column">
+                            <img src="./img/Rectangle 356.png" alt="" class="card-image__img">
+                            <p class="offcanvas-title" id="offcanvasRightLabel">Culpa nulla pariatur cupidatat nisi incididunt ea do ipsum. Incididunt quis mollit elit commodo cillum eiusmod reprehenderit labore irure. Cillum et incididunt et nostrud exercitation quis aute laboris non ut adipisicing. Laboris ad minim aute nulla proident deserunt velit anim sunt aliquip ut sit. Exercitation aliquip ullamco officia non aliqua. Sint deserunt aliquip veniam id eiusmod sit consectetur mollit ea aliqua officia consequat. Magna non mollit nisi est commodo voluptate aute id. Deserunt nostrud id do in nisi mollit deserunt non. Pariatur fugiat cillum irure elit sint nisi ad ipsum culpa deserunt cupidatat esse consequat laboris. Id aliquip non consectetur esse proident duis Lorem.</p>
+                            <div class="card-texts text-md-start">
+                            <p class="card-text">Author: <span class="card-text__span">Jamal Kasper</span><span class="card-text__span">Author 2</span></p>
+                            <p class="card-text">Published: <span class="card-text__span">2019</span></p>
+                            <p class="card-text">Publishers: <span class="card-text__span">Hollman</span></p>
+                            <p class="card-text">Categories: <span class="card-text__span">Computers</span></p>
+                            <p class="card-text">Pages Count: <span class="card-text__span">346</span></p>
+                        </div>
+                          </div>
+                          <div class="offcanvas-body">
+                            ...
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-5">
+                        <div class="card-image">
+                            <img src="./img/Rectangle 356 (5).png" alt="" class="card-image__img">
+                        </div>
+                        <h4 class="card-title">Python</h4>
+                        <p class="authors">David M. Beazley</p>
+                        <p class="authors">2009</p>
+
+                        <div class="buttons">
+                            <a href="#!" class="bookmark">Bookmark</a>
+                            <a href="#!" class="info">More info</a>
+                        </div>
+                        <button class="read-btn btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Read</button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          <div class="offcanvas-header justify-content-center flex-md-column">
+                            <img src="./img/Rectangle 356.png" alt="" class="card-image__img">
+                            <p class="offcanvas-title" id="offcanvasRightLabel">Culpa nulla pariatur cupidatat nisi incididunt ea do ipsum. Incididunt quis mollit elit commodo cillum eiusmod reprehenderit labore irure. Cillum et incididunt et nostrud exercitation quis aute laboris non ut adipisicing. Laboris ad minim aute nulla proident deserunt velit anim sunt aliquip ut sit. Exercitation aliquip ullamco officia non aliqua. Sint deserunt aliquip veniam id eiusmod sit consectetur mollit ea aliqua officia consequat. Magna non mollit nisi est commodo voluptate aute id. Deserunt nostrud id do in nisi mollit deserunt non. Pariatur fugiat cillum irure elit sint nisi ad ipsum culpa deserunt cupidatat esse consequat laboris. Id aliquip non consectetur esse proident duis Lorem.</p>
+                            <div class="card-texts text-md-start">
+                            <p class="card-text">Author: <span class="card-text__span">Jamal Kasper</span><span class="card-text__span">Author 2</span></p>
+                            <p class="card-text">Published: <span class="card-text__span">2019</span></p>
+                            <p class="card-text">Publishers: <span class="card-text__span">Hollman</span></p>
+                            <p class="card-text">Categories: <span class="card-text__span">Computers</span></p>
+                            <p class="card-text">Pages Count: <span class="card-text__span">346</span></p>
+                        </div>
+                          </div>
+                          <div class="offcanvas-body">
+                            ...
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer d-flex justify-content-center">
+                    <ul class="footer-list d-flex">
+                        <li class="footer-list__item">
+                            <a href="#!" class="footer-list_link"><</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="#!" class="footer-list_link">1</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="#!" class="footer-list_link">2</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="#!" class="footer-list_link">...</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="#!" class="footer-list_link">9</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="#!" class="footer-list_link">10</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="#!" class="footer-list_link">></a>
+                        </li>
+                    </ul>
+                </footer>
+            </div>
+    </div>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
